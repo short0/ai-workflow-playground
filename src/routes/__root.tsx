@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Computer Use Playground" },
+      { name: "description", content: "AI Workflow Playground is a web app for learning and experimenting with AI agent computer-use workflows." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Computer Use Playground" },
+      { property: "og:description", content: "AI Workflow Playground is a web app for learning and experimenting with AI agent computer-use workflows." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Computer Use Playground" },
+      { name: "twitter:description", content: "AI Workflow Playground is a web app for learning and experimenting with AI agent computer-use workflows." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/439ddcac-eb9a-4abf-a832-67c665c3b97c/id-preview-e2f62721--88b401ef-e46f-4df9-833a-fa3dba18c423.lovable.app-1776748019357.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/439ddcac-eb9a-4abf-a832-67c665c3b97c/id-preview-e2f62721--88b401ef-e46f-4df9-833a-fa3dba18c423.lovable.app-1776748019357.png" },
     ],
     links: [
       {
