@@ -10,9 +10,9 @@ export function MockScreen({ screen }: { screen: string }) {
       {/* Browser chrome */}
       <div className="flex items-center gap-2 border-b border-border bg-muted/40 px-3 py-2">
         <div className="flex gap-1.5">
-          <span className="h-2.5 w-2.5 rounded-full bg-red-400/60" />
-          <span className="h-2.5 w-2.5 rounded-full bg-yellow-400/60" />
-          <span className="h-2.5 w-2.5 rounded-full bg-green-400/60" />
+          <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/30" />
+          <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/30" />
+          <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/30" />
         </div>
         <div className="ml-2 flex-1 truncate rounded-md bg-background/70 px-2 py-1 text-[11px] text-muted-foreground">
           https://app.example.com/{screen.replace(/-/g, "/")}
